@@ -27,5 +27,10 @@ export default {
         failUrl: process.env.FAIL_URL,
         sslPaymentApi: process.env.SSL_PAYMENT_API,
         sslValidationApi: process.env.SSL_VALIDATIOIN_API
+    },
+    cloudinary : {
+        name: process.env.CLOUD_NAME,
+        apiKey: process.env.CLOUD_API_KEY,
+        apiSecret: process.env.CLOUD_API_SECRET,
     }
 }
